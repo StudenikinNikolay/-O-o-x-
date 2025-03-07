@@ -1,0 +1,9 @@
+services:
+  api:
+    image: studenikin/fileadmin:latest
+    ports:
+      - "8080:8080"
+  web:
+    image: studenikin/fileadmin-web:latest
+    ports:
+      - "8081:8081"
